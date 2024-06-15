@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the views_null_argument_issue module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function views_null_argument_issue_install(): void {
+  $node_storage = \Drupal::entityTypeManager()
+    ->getStorage('node');
+
+  foreach (['type_1', 'type_2'] as $item) {
+    for ($i = 1; $i <= 10; $i++) {
+      $node_storage->create([
+        'type' => 'views_null_argument_issue',
+        'title' => "views_null_argument_issue node of {$item} type",
+        'field_views_null_argument_issue' => $item,
+        'field_number' => rand(0, 100),
+      ])->save();
+    }
+  }
+}

@@ -1,0 +1,8 @@
+name: 'views_null_argument_issue'
+type: module
+description: 'views_null_argument_issue'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node
+  - drupal:views

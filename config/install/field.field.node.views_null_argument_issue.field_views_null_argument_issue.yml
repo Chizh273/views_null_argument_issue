@@ -1,0 +1,21 @@
+uuid: 020ae9cc-71cc-44f6-93c6-8c497c88d7e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_views_null_argument_issue
+    - node.type.views_null_argument_issue
+  module:
+    - options
+id: node.views_null_argument_issue.field_views_null_argument_issue
+field_name: field_views_null_argument_issue
+entity_type: node
+bundle: views_null_argument_issue
+label: views_null_argument_issue_type
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 26c104a6-5f20-48e3-8828-7a51a20bb691
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_views_null_argument_issue
+field_name: field_views_null_argument_issue
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: type_1
+      label: 'type 1'
+    -
+      value: type_2
+      label: 'type 2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

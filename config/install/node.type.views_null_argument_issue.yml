@@ -1,0 +1,18 @@
+uuid: 0dbaddaf-8a09-4708-b1df-5e8614119cab
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: views_null_argument_issue
+type: views_null_argument_issue
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

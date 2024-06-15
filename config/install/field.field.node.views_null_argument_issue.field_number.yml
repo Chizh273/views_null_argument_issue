@@ -1,0 +1,23 @@
+uuid: 52910364-5908-4472-a86a-5a9bcf272589
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.views_null_argument_issue
+id: node.views_null_argument_issue.field_number
+field_name: field_number
+entity_type: node
+bundle: views_null_argument_issue
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

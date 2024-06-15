@@ -1,0 +1,38 @@
+uuid: 45194634-5c70-4be1-a55a-28b9e3e0d013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.views_null_argument_issue.field_number
+    - field.field.node.views_null_argument_issue.field_views_null_argument_issue
+    - node.type.views_null_argument_issue
+  module:
+    - options
+    - user
+id: node.views_null_argument_issue.default
+targetEntityType: node
+bundle: views_null_argument_issue
+mode: default
+content:
+  field_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_views_null_argument_issue:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
