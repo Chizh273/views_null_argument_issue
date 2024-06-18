@@ -1,0 +1,6 @@
+{
+    "name": "drupal/views_null_argument_issue",
+    "description": "NULL contextual argument should be skipped during views URL generations.",
+    "type": "drupal-module",
+    "minimum-stability": "dev"
+}
